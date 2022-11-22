@@ -1,0 +1,39 @@
+{
+  "name": "justbrenda",
+  "version": "1.0.0",
+  "description": "coding with brenda",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tellor-io/justbrenda.git"
+  },
+  "keywords": [
+    "coding",
+    "brenda"
+  ],
+  "author": "breda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tellor-io/justbrenda/issues"
+  },
+  "homepage": "https://github.com/tellor-io/justbrenda#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.1",
+    "@nomiclabs/hardhat-etherscan": "^3.1.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "chai": "^4.3.7",
+    "dotenv": "^16.0.3",
+    "hardhat": "^2.12.2",
+    "hardhat-contract-sizer": "^2.6.1",
+    "hardhat-gas-reporter": "^1.0.9",
+    "prettier": "^2.7.1",
+    "prettier-plugin-solidity": "^1.0.0",
+    "solidity-coverage": "^0.7.22"
+  },
+  "dependencies": {
+    "usingtellor": "^5.0.1"
+  }
+}
